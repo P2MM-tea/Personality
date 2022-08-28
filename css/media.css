@@ -1,0 +1,21 @@
+@media (max-width: 1114px) {
+    .header__inner{
+        display: block;
+        justify-content: none;
+    }
+    .hero__inner{
+        display: block;
+    }
+    .menu__list{
+        display: block;
+        justify-content: center;
+    }
+    .superpowers_title{
+        text-align: left;
+    }
+    .items{
+        display: block;
+        margin: 0 auto;
+    }
+    
+ }

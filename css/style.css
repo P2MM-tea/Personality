@@ -1,0 +1,128 @@
+.container{
+    width: 1123px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__inner{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu__item{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+.menu__signin{
+    background-color: #ffff;
+    border: 1px solid #BCD0E5;
+    border-radius: 5%;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.hero__start{
+    color: #FF9900;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.menu__signup{
+    padding: 5px 10px;
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 5%;
+    padding-right: 10px;
+    color: white;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hero__title{
+    margin-bottom: 10px;
+}
+.hero__subtitle{
+    margin-bottom: 10px;
+}
+.hero__start{
+    color: #FF9900;
+    margin-left: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+.hero__start::before{
+    content: '';
+    background: url(../img/Play-icon.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    color: #ffff;
+    border-radius: 19px;
+    
+}
+.superpowers{
+    background-image: url(../img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0 70px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.power__item-text{
+    padding-top: 10px;
+}
+.power__item-tittle{
+    padding-top: 10px;
+}
+.menu__button{
+    padding: 5px 10px;
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    display: block;
+}
+.first__inner{ 
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.first{ 
+    padding-top: 100px;
+}
+.side_p{
+    padding-top: 10px;
+
+}
+.side_l{
+    padding-bottom: 10px;
+}
+.superpowers_title{
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
