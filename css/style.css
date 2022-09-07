@@ -11,12 +11,11 @@
 }
 .menu__list{
     display: flex;
-    justify-content: space-between; /* кажется это свойство не нужно тут. Что делает  justify-content: space-between; */
+    justify-content: space-between; /* ДА ОН ТУТ НУЖЕН*/
     align-items: center;
     
 }
 .menu__item{
-    margin: 10px; /* нужно ли сверху и снизу маржины */
     color: black;
     text-decoration: none;
 }
@@ -32,8 +31,8 @@
     text-decoration: none;
     padding-left: 10px;
 }
-/* Порядок классов не соотвествует элементам в html */
-.menu__signup{/* название класса не универсальное, используется в двух местах, в одном из мест это не signup */
+/* Порядок классов не соотвествует элементам в html *//*Ну да*/
+.menu__signup{
     padding: 5px 10px;
     background-color: #FF9900;
     border: 1px solid #FF9900;
@@ -114,12 +113,11 @@
     display: flex;
     justify-content: space-between;
 }
-/* очень странные названия классов в последней секции, вертикальные отступы от элементов делаются с помощью margin и только в низ, а не вверх */
 .first{ 
-    padding-top: 100px;
+    margin-top: 100px;
 }
 .side_p{
-    padding-top: 10px;
+    margin-top: 10px;
 
 }
 .side_l{
