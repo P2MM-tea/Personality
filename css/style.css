@@ -134,13 +134,22 @@
     text-align: center;
     padding-top: 10px;
 }
+.get-help_inner {
+    padding: 181px 0 330px;
+    position: relative;
+}
 
-
-.Get-Help_subtitle{
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 240px;
+.get-help__content {
     text-align: center;
+}
+
+.get-help_title{
+    margin-bottom: 22px;
+}
+
+.get-help_text {
+    max-width: 542px;
+    margin: 0 auto 45px;
 }
 .Get-Help_title{
     position: absolute;
@@ -149,14 +158,15 @@
 }
 
 
-.Get-Help__Human1{
-    position: absolute;
-    margin-top: 100px;
+.get-help__person1{
+position: absolute;
+top: 0;
+left: 0;
 }
-.Get-Help__Human2{
+.get-help__human--talk1 {
     position: absolute;
-    margin-top: 350px;
-    margin-left: 100px;
+    top: 0;
+    left: 0;
 }
 .Get-Help__Human3{
     position: absolute;
@@ -175,11 +185,7 @@
 }
 
 
-.Get-Help__Human--talk1{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 130px;
-}
+
 .Get-Help__Human--talk2{
     position: absolute;
     margin-top: 350px;
@@ -217,4 +223,19 @@
 }
 .slide + .slide{
     margin-left: 30px;
+}
+.info-slider .slick-dots li {
+    display: inline;
+}
+
+.info-slider .slick-dots li {
+    font-size: 0;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+}
+.info-slider .slick-dots li button {
+    background: none;
+    border: none
 }
