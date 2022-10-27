@@ -156,8 +156,8 @@
     margin-top: 200px;
     margin-left: 400px;
 }
-
-
+/* 
+person 1 */
 .get-help__person1{
 position: absolute;
 top: 0;
@@ -165,54 +165,86 @@ left: 0;
 }
 .get-help__human--talk1 {
     position: absolute;
+    width: 200px;
     top: 0;
-    left: 0;
+    left: 100px;
 }
-.Get-Help__Human3{
+
+/* 
+person 2 */
+.get-help__person2{
     position: absolute;
-    margin-top: 500px;
-    margin-left: 600px;
+    top: 0px;
+    left: 0px;
+    margin-top: 300px;
+    margin-left: 50px;
 }
-.Get-Help__Human4{
+.get-help__human--talk2{
     position: absolute;
-    margin-top: 350px;
-    margin-left: 1000px;
-}
-.Get-Help__Human5{
-    position: absolute;
-    margin-left: 950px;
-    margin-top: 30px;
+    width: 200px;
+    top: 0;
+    left: 80px;
 }
 
 
 
-.Get-Help__Human--talk2{
+/* 
+person 3 */
+.get-help__person3{
     position: absolute;
-    margin-top: 350px;
-    margin-left: -130px;
+    top: 400px;
+    left: 500px;
 }
 .Get-Help__Human--talk3{
     position: absolute;
-    margin-top: 500px;
-    margin-left: 300px;
+    width: 200px;
+    top: 0;
+    left: -80px;
+}
+.get-help__human3{
+    margin-left: 100px;
+}
+
+/* 
+person 4 */
+.get-help__person4{
+    position: absolute;
+    top: 200px;
+    left: 900px;
 }
 .Get-Help__Human--talk4{
     position: absolute;
-    margin-top: 350px;
-    margin-left: 800px;
+    width: 300px;
+    top: 0;
+    left: -80px;
+}
+.get-help__human4{
+    margin-left: 100px;
+}
+/* 
+person 5 */
+.get-help__person5{
+    position: absolute;
+    top: 0px;
+    left: 700px;
 }
 .Get-Help__Human--talk5{
     position: absolute;
-    margin-left: 750px;
-    margin-top: 30px;
+    width: 300px;
+    top: 0;
+    left: -80px;
 }
+.get-help__human5{
+    margin-left: 100px;
+}
+
 .Get-Help__button{
     position: absolute;
     margin-top: 350px;
     margin-left: 425px;
 }
 .info-slider{
-    margin-top: 700px;
+    margin-top: 50px;
     display: flex;
 }
 .slider{
@@ -226,16 +258,22 @@ left: 0;
 }
 .info-slider .slick-dots li {
     display: inline;
+    justify-content: center;
 }
 
-.info-slider .slick-dots li {
-    font-size: 0;
-    border: 1px solid;
-    border-radius: 50%;
-    width: 7px;
-    height: 7px;
-}
 .info-slider .slick-dots li button {
-    background: none;
-    border: none
+    font-size: 0;
+    background: lightgray;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.info-slider .slick-active button{
+    background: orange;
+}
+.info-slider .slick-dots{
+    margin: 0 auto;
+    text-align: center;
 }
