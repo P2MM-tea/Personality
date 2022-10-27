@@ -109,11 +109,11 @@
     margin-top: 100px;
 }
 .Productly_info-p{
-    margin-top: 10px;
+    margin-bottom: 40px;
 
 }
 .Productly_info-p--sucss{
-    padding-left: 50px;
+    padding-left: 80px;
 }
 .Productly_info-p--sucss::before{
     content: '';
@@ -174,10 +174,8 @@ left: 0;
 person 2 */
 .get-help__person2{
     position: absolute;
-    top: 0px;
+    top: 50%;
     left: 0px;
-    margin-top: 300px;
-    margin-left: 50px;
 }
 .get-help__human--talk2{
     position: absolute;
@@ -209,14 +207,13 @@ person 3 */
 person 4 */
 .get-help__person4{
     position: absolute;
-    top: 200px;
-    left: 900px;
+    top: 30%;
+    right: 0;
 }
-.Get-Help__Human--talk4{
+.get-help__human--talk4{
     position: absolute;
-    width: 300px;
-    top: 0;
-    left: -80px;
+    top: -30px;
+    left: -38px;
 }
 .get-help__human4{
     margin-left: 100px;
@@ -270,10 +267,9 @@ person 5 */
     height: 20px;
     margin-left: 10px;
 }
-.info-slider .slick-active button{
+.info-slider li.slick-active button{
     background: orange;
 }
 .info-slider .slick-dots{
-    margin: 0 auto;
     text-align: center;
 }
