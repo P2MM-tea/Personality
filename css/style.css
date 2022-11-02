@@ -17,6 +17,7 @@
 .menu__item{
     color: black;
     text-decoration: none;
+    margin-right: 10px;
 }
 .menu__signin{
     background-color: #ffff;
@@ -100,22 +101,22 @@
     margin: 0 auto;
     display: block;
 }
-.Productly_info-block__inner{ 
+.productly_info-block__inner{ 
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-.Productly_info-block{ 
+.productly_info-block{ 
     margin-top: 100px;
 }
-.Productly_info-p{
+.productly_info-p{
     margin-bottom: 40px;
 
 }
-.Productly_info-p--sucss{
+.productly_info-p--symbol{
     padding-left: 80px;
 }
-.Productly_info-p--sucss::before{
+.productly_info-p--sucss::symbol{
     content: '';
     background: url(../img/sucsess-icon.png);
     background-repeat: no-repeat;
@@ -126,7 +127,7 @@
     size: 10px;
 
 }
-.Productly_info-title{
+.productly_info-title{
     padding-bottom: 10px;
 }
 .superpowers_title{
@@ -193,7 +194,7 @@ person 3 */
     top: 400px;
     left: 500px;
 }
-.Get-Help__Human--talk3{
+.get-Help__Human--talk3{
     position: absolute;
     width: 200px;
     top: 0;
@@ -225,7 +226,7 @@ person 5 */
     top: 0px;
     left: 700px;
 }
-.Get-Help__Human--talk5{
+.get-Help__Human--talk5{
     position: absolute;
     width: 300px;
     top: 0;
@@ -235,7 +236,7 @@ person 5 */
     margin-left: 100px;
 }
 
-.Get-Help__button{
+.get-Help__button{
     position: absolute;
     margin-top: 350px;
     margin-left: 425px;
@@ -272,4 +273,21 @@ person 5 */
 }
 .info-slider .slick-dots{
     text-align: center;
+}
+
+
+.foot_menu{
+    display: block;
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 40px 0 20px;
+}
+.footer__singUp-block input{
+    display: block;
+}
+.footer_logo{
+    height: 30px;
 }
